@@ -1,0 +1,13 @@
+/* src/fonts.css */
+@font-face {
+  font-family: 'Broken';
+  src: url('./assets/fonts/Broken.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'SoccerManFIFA';
+  src: url('./assets/fonts/SOCCERMANFIFA.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+

@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "target": "es6", // or whatever target version you need
+      "module": "commonjs",
+      "baseUrl": ".",
+      "paths": {
+        "@/*": [
+          "./src/*"
+        ]
+      },
+      "strict": true, // enables strict type checking
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "dist"]
+  }
